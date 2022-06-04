@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --bodyColor: rgb(242, 245, 248);
+    --navHading: #212529;
+    --catageryFont:#084177;
+    --primary:#fe346e;
+
+}
+
+html {
+    font-size: 62.5%;
+  }
+  body {
+    background-color: var(--bodyColor);
+    
+    font-family:poppins,-apple-system, BlinkMacSystemFont, 'Segoe UI';
+    /* background-color: rgb(22, 123, 211); */
+  }
+.heading{
+    color: white;
+    text-align: center;
+   background-color: var(--navHading);
+    height: 12rem;
+    width: 100%;
+}
+ h1{
+    font-size: 3rem;
+}
+
+.heading h2{
+    color: var(--primary);
+    font-size: 1.7rem;
+}
+
+.movies{
+    color:var(--catageryFont);
+    text-align: center;
+}
+.main{
+    padding-top: 4rem;
+   
+}
+
+nav{
+    background-color: var(--navHading);
+    height:6rem;
+  padding-top: 1rem;
+    
+    
+}
+nav a{
+    text-decoration-line:none ;
+    color: white;
+    padding: 1rem 5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+nav a:hover{
+    background-color: var(--primary);
+}
+.images  img{
+  /* width: 30%; */
+  width: 35rem;
+  
+  box-shadow: .5rem 1rem 3rem rgba(0,0, 0, 0.3);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a[href="http://"]{
+    color: var(--primary);
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.showMore{
+    text-decoration: none;
+    color:var(--primary);
+    /* background-color: var(--navHading); */
+    border: 2px solid var(--primary);
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    font-size: 2rem;
+    /* box-shadow: .5rem 1rem 3rem rgba(0,0, 0, 0.3); */
+}
+.showMore:hover{
+    background-color: var(--navHading);
+}
+
+footer{
+    margin-top: 3rem;
+    height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  background-color: var(--navHading);
+  color: white;
+  padding: 0 5rem;
+  height: 5rem;
+  }
+  
